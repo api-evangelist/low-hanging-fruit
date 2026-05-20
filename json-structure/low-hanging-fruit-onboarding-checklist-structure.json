@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/low-hanging-fruit/refs/heads/main/json-structure/low-hanging-fruit-onboarding-checklist-structure.json",
+  "name": "OnboardingChecklist",
+  "description": "A checklist evaluating how quickly and frictionlessly a developer can go from API provider signup to first successful call.",
+  "type": "object",
+  "properties": {
+    "provider": {
+      "type": "string",
+      "description": "Name of the API provider being evaluated.",
+      "example": "Stripe"
+    },
+    "api_name": {
+      "type": "string",
+      "description": "Specific API or product within the provider being evaluated.",
+      "example": "Stripe Payments API"
+    },
+    "category": {
+      "type": "string",
+      "description": "Editorial category for the quick-win API.",
+      "enum": [
+        "Payments",
+        "Messaging",
+        "Email",
+        "Geolocation",
+        "Identity",
+        "CRM",
+        "Productivity",
+        "AI",
+        "DeveloperTools",
+        "Scheduling",
+        "Forms",
+        "Storage",
+        "Banking",
+        "Other"
+      ],
+      "example": "Payments"
+    },
+    "self_serve_signup": {
+      "type": "boolean",
+      "description": "Whether a developer can sign up without sales contact.",
+      "example": true
+    },
+    "free_tier": {
+      "type": "boolean",
+      "description": "Whether the provider offers a free tier or trial credits.",
+      "example": true
+    },
+    "credit_card_required": {
+      "type": "boolean",
+      "description": "Whether a credit card is required at signup.",
+      "example": false
+    },
+    "time_to_first_call_minutes": {
+      "type": "int32",
+      "description": "Median observed time, in minutes, from account creation to first successful API call.",
+      "example": 5
+    },
+    "quickstart_url": {
+      "type": "uri",
+      "description": "URL to the provider's flagship quickstart tutorial.",
+      "example": "https://stripe.com/docs/quickstart"
+    },
+    "documentation_url": {
+      "type": "uri",
+      "description": "URL to the provider's primary developer documentation.",
+      "example": "https://stripe.com/docs/api"
+    },
+    "openapi_available": {
+      "type": "boolean",
+      "description": "Whether an official OpenAPI specification is published.",
+      "example": true
+    },
+    "official_sdks": {
+      "type": "array",
+      "description": "Programming languages with officially maintained SDKs.",
+      "items": {
+        "type": "string"
+      },
+      "example": [
+        "JavaScript",
+        "Python",
+        "Ruby",
+        "Go",
+        "PHP",
+        "Java"
+      ]
+    },
+    "postman_collection": {
+      "type": "boolean",
+      "description": "Whether an official Postman collection is published.",
+      "example": true
+    },
+    "interactive_playground": {
+      "type": "boolean",
+      "description": "Whether the docs include an in-browser API playground.",
+      "example": true
+    },
+    "sandbox_environment": {
+      "type": "boolean",
+      "description": "Whether a dedicated sandbox is offered.",
+      "example": true
+    },
+    "public_pricing": {
+      "type": "boolean",
+      "description": "Whether per-unit pricing is published publicly.",
+      "example": true
+    },
+    "editorial_score": {
+      "type": "int32",
+      "description": "Kin Lane's editorial 'quick win' score on a 0-10 scale.",
+      "example": 10
+    },
+    "notes": {
+      "type": "string",
+      "description": "Editorial notes on why this API qualifies as low hanging fruit.",
+      "example": "Canonical first-integration example; sandbox keys appear in the dashboard immediately."
+    }
+  },
+  "required": [
+    "provider",
+    "api_name",
+    "category",
+    "self_serve_signup",
+    "time_to_first_call_minutes"
+  ]
+}

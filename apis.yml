@@ -1,0 +1,177 @@
+aid: low-hanging-fruit
+name: Low Hanging Fruit
+description: >-
+  A Kin Lane / API Evangelist editorial collection of "low hanging fruit" APIs — the well-documented, easy-to-onboard, single-purpose providers that consistently appear in five-minute tutorials and integration
+  playbooks. These are the APIs an enterprise should pick first from a catalog or marketplace to demonstrate API value quickly: friction-free signup, sandbox-friendly credentials, a polished SDK, and a quickstart
+  that gets you to first successful call in minutes. This index curates payments, messaging, email, geolocation, identity, CRM, productivity, AI, and developer-tools APIs that have set the bar for what
+  "developer experience done right" looks like, and that any enterprise can lean on to show concrete, demonstrable API integration wins.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- API Onboarding
+- Quick Wins
+- Tutorials
+- Developer Onboarding
+- Easy Integration
+- Time to First Call
+- Editorial Curation
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/low-hanging-fruit/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: Airtable
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/apis.yml
+- name: Anthropic
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/apis.yml
+- name: Asana
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/apis.yml
+- name: Auth0
+  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/apis.yml
+- name: Calendly
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/apis.yml
+- name: ClickUp
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/apis.yml
+- name: Cloudflare
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/apis.yml
+- name: Datadog
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
+- name: Discord
+  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/apis.yml
+- name: Dropbox
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/apis.yml
+- name: ElevenLabs
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/apis.yml
+- name: GitHub
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml
+- name: GitLab
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/apis.yml
+- name: Google Maps Platform
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/apis.yml
+- name: HubSpot
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/apis.yml
+- name: Intercom
+  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/apis.yml
+- name: Mailchimp
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/apis.yml
+- name: Mailgun
+  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/apis.yml
+- name: Mapbox
+  url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/apis.yml
+- name: Netlify
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/apis.yml
+- name: Notion
+  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/apis.yml
+- name: OpenAI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/apis.yml
+- name: OpenWeather
+  url: https://raw.githubusercontent.com/api-evangelist/openweather/refs/heads/main/apis.yml
+- name: PayPal
+  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/apis.yml
+- name: Plaid
+  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/apis.yml
+- name: Postmark
+  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/apis.yml
+- name: Resend
+  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/apis.yml
+- name: Salesforce
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/apis.yml
+- name: SendGrid
+  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/apis.yml
+- name: Shopify
+  url: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/apis.yml
+- name: Slack
+  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/apis.yml
+- name: Spotify
+  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/apis.yml
+- name: Stripe
+  url: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/apis.yml
+- name: Supabase
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/apis.yml
+- name: Trello
+  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/apis.yml
+- name: Twilio
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/apis.yml
+- name: Typeform
+  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/apis.yml
+- name: Vercel
+  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/apis.yml
+- name: Zendesk
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
+- name: Zoom
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: Friction-Free Signup
+    description: Low hanging fruit APIs let a developer create an account, get sandbox credentials, and make their first call without sales calls, contracts, or procurement reviews.
+  - name: Time to First Call Under Ten Minutes
+    description: These providers consistently get a new developer from signup to a successful API response in under ten minutes via polished quickstarts and copy-paste code samples.
+  - name: Polished Developer Documentation
+    description: Documentation that includes runnable examples, interactive playgrounds, and language-specific SDKs across JavaScript, Python, Ruby, Go, and PHP at a minimum.
+  - name: Free Tier or Generous Sandbox
+    description: A free tier, trial credits, or fully featured sandbox environment so enterprises can validate an integration end-to-end before any spend is committed.
+  - name: Single-Purpose Clarity
+    description: Each API does one thing extremely well — payments, SMS, email, geocoding, auth, scheduling — making it easy to pitch a single, demonstrable win to non-technical stakeholders.
+  - name: SDKs and Postman Collections
+    description: Official SDKs in mainstream languages, Postman collections, and OpenAPI specifications that make integration trivial in any modern engineering stack.
+  - name: Quickstart Walkthroughs
+    description: A flagship "build X in five minutes" tutorial that has been refined over thousands of developer onboardings and powers most public hackathon content.
+  - name: Predictable, Public Pricing
+    description: Pricing pages list per-call, per-message, or per-event costs publicly so enterprise architects can model spend before signing anything.
+- type: UseCases
+  data:
+  - name: Accepting a First Payment in One Afternoon
+    description: An enterprise team uses Stripe or PayPal to demonstrate end-to-end checkout — from product page to receipt email — inside a single afternoon's working session.
+  - name: Sending Transactional Email From a New App
+    description: A team integrates Resend, SendGrid, Postmark, or Mailgun to send order confirmations, password resets, and notifications without standing up SMTP infrastructure.
+  - name: Adding SMS and Voice to an Internal Tool
+    description: Twilio is dropped into an internal operations tool to send appointment reminders or two-factor codes within hours, not weeks.
+  - name: Geocoding Addresses on a Map
+    description: Google Maps Platform or Mapbox is wired up to plot customers, stores, or assets on a map with autocomplete address search and route directions.
+  - name: Adding Single Sign-On to a New Product
+    description: Auth0 is used to add social login, enterprise SSO, and user management without writing a single line of authentication code.
+  - name: Embedding LLM Capabilities in a Workflow
+    description: OpenAI or Anthropic is wired into an internal app to summarize tickets, classify emails, or draft replies as a first concrete AI win for the business.
+  - name: Capturing a Lead Form to CRM
+    description: Typeform or Calendly captures inbound interest and HubSpot or Salesforce stores the resulting contact, demonstrating a closed-loop marketing-to-sales flow.
+  - name: Notifying Operations in Chat
+    description: Slack or Discord webhooks deliver alerts from monitoring tools, deployment pipelines, or customer-support systems straight into the channels operators already live in.
+- type: Integrations
+  data:
+  - name: Stripe
+    description: Payments, subscriptions, and payouts API that defined modern developer experience and is the canonical "first integration" for any commerce demo.
+  - name: Twilio
+    description: SMS, voice, and WhatsApp messaging APIs with a sandbox that lets you send your first message inside the signup flow.
+  - name: SendGrid
+    description: Transactional and marketing email API with a free tier and one of the most widely used quickstarts in developer tutorials.
+  - name: Resend
+    description: Modern email API for developers with a React-friendly templating story and frictionless onboarding.
+  - name: Google Maps Platform
+    description: Geocoding, maps, places, and directions APIs that are the default choice for any "put it on a map" demo.
+  - name: Slack
+    description: Webhooks, bots, and the Web API that turn any internal tool into a chat-enabled experience in minutes.
+  - name: GitHub
+    description: Repositories, issues, pull requests, and Actions APIs that underpin nearly every developer-tooling demo and quickstart.
+  - name: Auth0
+    description: Identity, authentication, and SSO API that enterprises lean on to add login without building it from scratch.
+  - name: OpenAI
+    description: Chat completions, embeddings, and image generation APIs that have become the default first-AI-integration for most enterprises.
+  - name: Plaid
+    description: Banking and financial account connectivity API that lets a fintech demo a "link your bank" flow in an afternoon.
+  - name: HubSpot
+    description: CRM, contacts, deals, and marketing API with public sandboxes and excellent OpenAPI coverage.
+  - name: Typeform
+    description: Form and survey API with webhooks that make capturing inbound interest into any back-end trivial.
+  - name: Calendly
+    description: Scheduling API and embed widget that demonstrates how a single integration can collapse weeks of back-and-forth into a single link.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com

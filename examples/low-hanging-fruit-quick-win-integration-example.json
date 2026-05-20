@@ -1,0 +1,57 @@
+{
+  "title": "Accept a First Payment in One Afternoon",
+  "description": "Wire up Stripe Checkout into an existing product page, send a Resend confirmation email, and post a notification to a Slack channel so the business can demonstrate end-to-end payment acceptance by the end of the day.",
+  "primary_provider": "Stripe",
+  "supporting_providers": [
+    "Resend",
+    "Slack"
+  ],
+  "category": "Payments",
+  "estimated_effort_hours": 4,
+  "prerequisites": [
+    "Stripe account with test mode keys",
+    "Resend account with a verified sending domain",
+    "Slack workspace with an incoming webhook URL",
+    "A deployed web app or static site"
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "title": "Create a Stripe account and grab test keys",
+      "description": "Sign up at stripe.com, switch to test mode, and copy the publishable and secret test keys from the dashboard."
+    },
+    {
+      "order": 2,
+      "title": "Add a Stripe Checkout button to the product page",
+      "description": "Use the official Stripe.js snippet to create a Checkout Session server-side and redirect the customer to Stripe's hosted page."
+    },
+    {
+      "order": 3,
+      "title": "Handle the webhook for completed sessions",
+      "description": "Register a webhook endpoint and verify the checkout.session.completed event signature before processing it."
+    },
+    {
+      "order": 4,
+      "title": "Send a confirmation email via Resend",
+      "description": "On a verified webhook event, call the Resend API to send a transactional 'Thanks for your order' email."
+    },
+    {
+      "order": 5,
+      "title": "Post a notification to Slack",
+      "description": "POST a formatted message to the Slack incoming webhook so the team sees the test payment in real time."
+    },
+    {
+      "order": 6,
+      "title": "Demo the end-to-end flow",
+      "description": "Run a test payment with the 4242 4242 4242 4242 card number and confirm the email and Slack notification arrive."
+    }
+  ],
+  "demo_artifact": "https://github.com/api-evangelist/low-hanging-fruit-demo-stripe",
+  "business_value": "The business can accept a real customer payment and notify operations within a single working day, without building a billing system or messaging infrastructure.",
+  "stakeholders": [
+    "CTO",
+    "Head of Product",
+    "VP Engineering",
+    "Head of Revenue"
+  ]
+}

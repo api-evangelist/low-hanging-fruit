@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/low-hanging-fruit/refs/heads/main/json-schema/low-hanging-fruit-quick-win-integration-schema.json",
+  "title": "QuickWinIntegration",
+  "description": "A demonstrable, time-boxed API integration an enterprise team can stand up in hours or days to show concrete business value with minimal setup.",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Short title of the quick-win integration.",
+      "example": "Accept a First Payment in One Afternoon"
+    },
+    "description": {
+      "type": "string",
+      "description": "Plain-language description of the integration and the business value it delivers.",
+      "example": "Integrate Stripe Checkout into an existing product page so the business can accept a real payment by end of day."
+    },
+    "primary_provider": {
+      "type": "string",
+      "description": "The lead API provider used in this integration.",
+      "example": "Stripe"
+    },
+    "supporting_providers": {
+      "type": "array",
+      "description": "Additional API providers used to round out the integration.",
+      "items": { "type": "string" },
+      "example": ["Resend", "Slack"]
+    },
+    "category": {
+      "type": "string",
+      "description": "Editorial category for the quick win.",
+      "enum": [
+        "Payments",
+        "Messaging",
+        "Email",
+        "Geolocation",
+        "Identity",
+        "CRM",
+        "Productivity",
+        "AI",
+        "DeveloperTools",
+        "Scheduling",
+        "Forms",
+        "Storage",
+        "Banking",
+        "Other"
+      ],
+      "example": "Payments"
+    },
+    "estimated_effort_hours": {
+      "type": "number",
+      "description": "Estimated implementation effort in engineering hours for a single developer.",
+      "minimum": 0,
+      "example": 4
+    },
+    "prerequisites": {
+      "type": "array",
+      "description": "Prerequisite accounts, credentials, or infrastructure required.",
+      "items": { "type": "string" },
+      "example": ["Stripe account with sandbox keys", "A deployed web app"]
+    },
+    "steps": {
+      "type": "array",
+      "description": "Ordered steps to complete the integration.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "order": { "type": "integer", "minimum": 1, "example": 1 },
+          "title": { "type": "string", "example": "Create a Stripe account and grab test keys" },
+          "description": { "type": "string", "example": "Sign up at stripe.com and copy the publishable and secret test keys from the dashboard." }
+        },
+        "required": ["order", "title"]
+      }
+    },
+    "demo_artifact": {
+      "type": "string",
+      "format": "uri",
+      "description": "Link to the runnable demo, repository, or hosted artifact that proves the integration works.",
+      "example": "https://github.com/example-org/stripe-quick-win-demo"
+    },
+    "business_value": {
+      "type": "string",
+      "description": "One-sentence statement of the business value demonstrated.",
+      "example": "Accept a real customer payment from a marketing page without standing up a billing system."
+    },
+    "stakeholders": {
+      "type": "array",
+      "description": "Stakeholder roles who care about this quick win.",
+      "items": { "type": "string" },
+      "example": ["CTO", "Head of Product", "VP Engineering"]
+    }
+  },
+  "required": ["title", "primary_provider", "category", "estimated_effort_hours"]
+}

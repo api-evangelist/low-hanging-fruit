@@ -1,0 +1,250 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Low Hanging Fruit
+  description: Editorial vocabulary for the API Evangelist 'low hanging fruit' topic, covering the well-documented, frictionless APIs enterprises pick first to demonstrate concrete API value with minimal setup.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Stripe Payments
+      namespace: stripe
+      status: active
+    - name: Twilio Messaging
+      namespace: twilio
+      status: active
+    - name: SendGrid Email
+      namespace: sendgrid
+      status: active
+    - name: Resend Email
+      namespace: resend
+      status: active
+    - name: Google Maps Platform
+      namespace: google-maps
+      status: active
+    - name: Slack Web API
+      namespace: slack
+      status: active
+    - name: GitHub REST API
+      namespace: github
+      status: active
+    - name: Auth0 Identity
+      namespace: auth0
+      status: active
+    - name: OpenAI Chat Completions
+      namespace: openai
+      status: active
+    - name: Plaid Banking
+      namespace: plaid
+      status: active
+
+  resources:
+    - name: onboarding-checklists
+      description: Per-provider checklists scoring signup friction, time to first call, and developer-experience quality
+      actions:
+        - list
+        - get
+        - score
+    - name: quick-win-integrations
+      description: Time-boxed integration recipes that demonstrate concrete business value
+      actions:
+        - list
+        - get
+        - build
+    - name: tutorial-walkthroughs
+      description: Step-by-step guides for first-integration scenarios across the curated providers
+      actions:
+        - list
+        - get
+    - name: providers
+      description: API providers curated into the low-hanging-fruit editorial collection
+      actions:
+        - list
+        - get
+        - curate
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: score
+      description: Score a provider against the onboarding checklist
+      httpMethod: POST
+      pattern: write
+    - name: build
+      description: Stand up a quick-win integration from a recipe
+      httpMethod: POST
+      pattern: write
+    - name: curate
+      description: Add or remove a provider from the editorial collection
+      httpMethod: POST
+      pattern: write
+
+  schemas:
+    core:
+      - name: OnboardingChecklist
+        description: Checklist evaluating how frictionlessly a developer can onboard with an API
+        properties:
+          - provider
+          - api_name
+          - category
+          - self_serve_signup
+          - free_tier
+          - time_to_first_call_minutes
+          - quickstart_url
+          - documentation_url
+          - openapi_available
+          - official_sdks
+          - editorial_score
+      - name: QuickWinIntegration
+        description: Time-boxed integration recipe demonstrating concrete API value
+        properties:
+          - title
+          - description
+          - primary_provider
+          - supporting_providers
+          - category
+          - estimated_effort_hours
+          - prerequisites
+          - steps
+          - business_value
+          - stakeholders
+
+  enums:
+    categories:
+      - Payments
+      - Messaging
+      - Email
+      - Geolocation
+      - Identity
+      - CRM
+      - Productivity
+      - AI
+      - DeveloperTools
+      - Scheduling
+      - Forms
+      - Storage
+      - Banking
+    editorial_scores:
+      - 10
+      - 9
+      - 8
+      - 7
+      - 6
+      - 5
+
+capability:
+  workflows:
+    - name: First Payment in an Afternoon
+      description: Wire up Stripe Checkout on a product page to accept a real payment by end of day
+      apis:
+        - stripe
+        - paypal
+      personas:
+        - Enterprise Architect
+        - Integration Developer
+      domains:
+        - Quick Wins
+    - name: Transactional Email From Day One
+      description: Drop in Resend, SendGrid, Postmark, or Mailgun to send order confirmations and resets without standing up SMTP
+      apis:
+        - resend
+        - sendgrid
+        - postmark
+        - mailgun
+      personas:
+        - Integration Developer
+      domains:
+        - Quick Wins
+    - name: Drop-In Single Sign-On
+      description: Add Auth0 to a new product to get social login, enterprise SSO, and user management with no custom auth code
+      apis:
+        - auth0
+      personas:
+        - Enterprise Architect
+      domains:
+        - Quick Wins
+    - name: First AI Integration
+      description: Embed OpenAI or Anthropic into an internal app to summarize, classify, or draft as a first concrete AI win
+      apis:
+        - openai
+        - anthropic
+      personas:
+        - Innovation Lead
+      domains:
+        - AI Quick Wins
+    - name: Maps and Geocoding Demo
+      description: Plot customers, stores, or assets on a map with Google Maps Platform or Mapbox in a single sprint
+      apis:
+        - google-maps
+        - mapbox
+      personas:
+        - Integration Developer
+      domains:
+        - Quick Wins
+
+  personas:
+    - id: enterprise-architect
+      name: Enterprise Architect
+      description: Architects looking for low-risk APIs to validate platform investments
+      workflows:
+        - First Payment in an Afternoon
+        - Drop-In Single Sign-On
+    - id: integration-developer
+      name: Integration Developer
+      description: Developers building first integrations and quickstart demos
+      workflows:
+        - First Payment in an Afternoon
+        - Transactional Email From Day One
+        - Maps and Geocoding Demo
+    - id: innovation-lead
+      name: Innovation Lead
+      description: Innovation and digital leaders proving out concrete API and AI wins
+      workflows:
+        - First AI Integration
+    - id: developer-advocate
+      name: Developer Advocate
+      description: Advocates curating tutorials and quickstarts for internal and external audiences
+      workflows:
+        - Transactional Email From Day One
+        - Maps and Geocoding Demo
+
+  domains:
+    - name: Quick Wins
+      description: APIs and recipes that deliver demonstrable business value in hours or days
+    - name: AI Quick Wins
+      description: AI APIs that an enterprise can integrate into existing workflows for an immediate, concrete capability
+    - name: Editorial Curation
+      description: Kin Lane's opinionated curation of best-in-class onboarding APIs
+
+crossReference:
+  - resource: onboarding-checklists
+    operations:
+      - list
+      - get
+      - score
+    workflows:
+      - First Payment in an Afternoon
+      - Drop-In Single Sign-On
+    personas:
+      - Enterprise Architect
+      - Developer Advocate
+  - resource: quick-win-integrations
+    operations:
+      - list
+      - get
+      - build
+    workflows:
+      - First Payment in an Afternoon
+      - Transactional Email From Day One
+      - First AI Integration
+      - Maps and Geocoding Demo
+    personas:
+      - Integration Developer
+      - Innovation Lead

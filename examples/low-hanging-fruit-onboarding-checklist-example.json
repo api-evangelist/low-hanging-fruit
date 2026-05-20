@@ -1,0 +1,27 @@
+{
+  "provider": "Stripe",
+  "api_name": "Stripe Payments API",
+  "category": "Payments",
+  "self_serve_signup": true,
+  "free_tier": true,
+  "credit_card_required": false,
+  "time_to_first_call_minutes": 5,
+  "quickstart_url": "https://stripe.com/docs/quickstart",
+  "documentation_url": "https://stripe.com/docs/api",
+  "openapi_available": true,
+  "official_sdks": [
+    "JavaScript",
+    "Python",
+    "Ruby",
+    "Go",
+    "PHP",
+    "Java",
+    ".NET"
+  ],
+  "postman_collection": true,
+  "interactive_playground": true,
+  "sandbox_environment": true,
+  "public_pricing": true,
+  "editorial_score": 10,
+  "notes": "Canonical low-hanging-fruit example: test keys appear in the dashboard immediately after signup, the docs ship runnable curl and Node samples, and Stripe Checkout reduces a payment integration to a single redirect."
+}

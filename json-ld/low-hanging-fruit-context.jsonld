@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "lhf": "https://api-evangelist.github.io/low-hanging-fruit/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "OnboardingChecklist": "lhf:OnboardingChecklist",
+    "QuickWinIntegration": "lhf:QuickWinIntegration",
+
+    "provider": "schema:provider",
+    "api_name": "schema:name",
+    "name": "schema:name",
+    "title": "schema:name",
+    "description": "schema:description",
+
+    "category": {
+      "@id": "lhf:category",
+      "@type": "xsd:string"
+    },
+    "self_serve_signup": {
+      "@id": "lhf:self_serve_signup",
+      "@type": "xsd:boolean"
+    },
+    "free_tier": {
+      "@id": "lhf:free_tier",
+      "@type": "xsd:boolean"
+    },
+    "credit_card_required": {
+      "@id": "lhf:credit_card_required",
+      "@type": "xsd:boolean"
+    },
+    "time_to_first_call_minutes": {
+      "@id": "lhf:time_to_first_call_minutes",
+      "@type": "xsd:integer"
+    },
+    "quickstart_url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "documentation_url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "openapi_available": {
+      "@id": "lhf:openapi_available",
+      "@type": "xsd:boolean"
+    },
+    "official_sdks": {
+      "@id": "lhf:official_sdks",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "postman_collection": {
+      "@id": "lhf:postman_collection",
+      "@type": "xsd:boolean"
+    },
+    "interactive_playground": {
+      "@id": "lhf:interactive_playground",
+      "@type": "xsd:boolean"
+    },
+    "sandbox_environment": {
+      "@id": "lhf:sandbox_environment",
+      "@type": "xsd:boolean"
+    },
+    "public_pricing": {
+      "@id": "lhf:public_pricing",
+      "@type": "xsd:boolean"
+    },
+    "editorial_score": {
+      "@id": "lhf:editorial_score",
+      "@type": "xsd:integer"
+    },
+    "notes": {
+      "@id": "schema:comment",
+      "@type": "xsd:string"
+    },
+
+    "primary_provider": {
+      "@id": "lhf:primary_provider",
+      "@type": "xsd:string"
+    },
+    "supporting_providers": {
+      "@id": "lhf:supporting_providers",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "estimated_effort_hours": {
+      "@id": "lhf:estimated_effort_hours",
+      "@type": "xsd:decimal"
+    },
+    "prerequisites": {
+      "@id": "lhf:prerequisites",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "steps": {
+      "@id": "lhf:steps",
+      "@container": "@list"
+    },
+    "order": {
+      "@id": "lhf:order",
+      "@type": "xsd:integer"
+    },
+    "demo_artifact": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "business_value": {
+      "@id": "lhf:business_value",
+      "@type": "xsd:string"
+    },
+    "stakeholders": {
+      "@id": "lhf:stakeholders",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    }
+  }
+}
