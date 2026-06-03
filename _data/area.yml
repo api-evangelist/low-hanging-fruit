@@ -1,0 +1,239 @@
+meta:
+  name: Low Hanging Fruit
+  description: 'A Kin Lane / API Evangelist editorial collection of "low hanging fruit"
+    APIs — the well-documented, easy-to-onboard, single-purpose providers that consistently
+    appear in five-minute tutorials and integration playbooks. These are the APIs
+    an enterprise should pick first from a catalog or marketplace to demonstrate API
+    value quickly: friction-free signup, sandbox-friendly credentials, a polished
+    SDK, and a quickstart that gets you to first successful call in minutes. This
+    index curates payments, messaging, email, geolocation, identity, CRM, productivity,
+    AI, and developer-tools APIs that have set the bar for what "developer experience
+    done right" looks like, and that any enterprise can lean on to show concrete,
+    demonstrable API integration wins.'
+  tags:
+  - API Onboarding
+  - Quick Wins
+  - Tutorials
+  - Developer Onboarding
+  - Easy Integration
+  - Time to First Call
+  - Editorial Curation
+  portal: https://apievangelist.com
+  github: https://github.com/api-evangelist
+  repo: low-hanging-fruit
+services_tools:
+- name: Airtable
+  repo: https://github.com/api-evangelist/airtable
+  apisio: https://providers.apis.io/providers/airtable/
+- name: Anthropic
+  repo: https://github.com/api-evangelist/anthropic
+  apisio: https://providers.apis.io/providers/anthropic/
+- name: Asana
+  repo: https://github.com/api-evangelist/asana
+  apisio: https://providers.apis.io/providers/asana/
+- name: Auth0
+  repo: https://github.com/api-evangelist/auth0
+  apisio: https://providers.apis.io/providers/auth0/
+- name: Calendly
+  repo: https://github.com/api-evangelist/calendly
+  apisio: https://providers.apis.io/providers/calendly/
+- name: ClickUp
+  repo: https://github.com/api-evangelist/clickup
+  apisio: https://providers.apis.io/providers/clickup/
+- name: Cloudflare
+  repo: https://github.com/api-evangelist/cloudflare
+  apisio: https://providers.apis.io/providers/cloudflare/
+- name: Datadog
+  repo: https://github.com/api-evangelist/datadog
+  apisio: https://providers.apis.io/providers/datadog/
+- name: Discord
+  repo: https://github.com/api-evangelist/discord
+  apisio: https://providers.apis.io/providers/discord/
+- name: Dropbox
+  repo: https://github.com/api-evangelist/dropbox
+  apisio: https://providers.apis.io/providers/dropbox/
+- name: ElevenLabs
+  repo: https://github.com/api-evangelist/elevenlabs
+  apisio: https://providers.apis.io/providers/elevenlabs/
+- name: GitHub
+  repo: https://github.com/api-evangelist/github
+  apisio: https://providers.apis.io/providers/github/
+- name: GitLab
+  repo: https://github.com/api-evangelist/gitlab
+  apisio: https://providers.apis.io/providers/gitlab/
+- name: Google Maps Platform
+  repo: https://github.com/api-evangelist/google-maps
+  apisio: https://providers.apis.io/providers/google-maps/
+- name: HubSpot
+  repo: https://github.com/api-evangelist/hubspot
+  apisio: https://providers.apis.io/providers/hubspot/
+- name: Intercom
+  repo: https://github.com/api-evangelist/intercom
+  apisio: https://providers.apis.io/providers/intercom/
+- name: Mailchimp
+  repo: https://github.com/api-evangelist/mailchimp
+  apisio: https://providers.apis.io/providers/mailchimp/
+- name: Mailgun
+  repo: https://github.com/api-evangelist/mailgun
+  apisio: https://providers.apis.io/providers/mailgun/
+- name: Mapbox
+  repo: https://github.com/api-evangelist/mapbox
+  apisio: https://providers.apis.io/providers/mapbox/
+- name: Netlify
+  repo: https://github.com/api-evangelist/netlify
+  apisio: https://providers.apis.io/providers/netlify/
+- name: Notion
+  repo: https://github.com/api-evangelist/notion
+  apisio: https://providers.apis.io/providers/notion/
+- name: OpenAI
+  repo: https://github.com/api-evangelist/openai
+  apisio: https://providers.apis.io/providers/openai/
+- name: OpenWeather
+  repo: https://github.com/api-evangelist/openweather
+  apisio: https://providers.apis.io/providers/openweather/
+- name: PayPal
+  repo: https://github.com/api-evangelist/paypal
+  apisio: https://providers.apis.io/providers/paypal/
+- name: Plaid
+  repo: https://github.com/api-evangelist/plaid
+  apisio: https://providers.apis.io/providers/plaid/
+- name: Postmark
+  repo: https://github.com/api-evangelist/postmark
+  apisio: https://providers.apis.io/providers/postmark/
+- name: Resend
+  repo: https://github.com/api-evangelist/resend
+  apisio: https://providers.apis.io/providers/resend/
+- name: Salesforce
+  repo: https://github.com/api-evangelist/salesforce
+  apisio: https://providers.apis.io/providers/salesforce/
+- name: SendGrid
+  repo: https://github.com/api-evangelist/sendgrid
+  apisio: https://providers.apis.io/providers/sendgrid/
+- name: Shopify
+  repo: https://github.com/api-evangelist/shopify
+  apisio: https://providers.apis.io/providers/shopify/
+- name: Slack
+  repo: https://github.com/api-evangelist/slack
+  apisio: https://providers.apis.io/providers/slack/
+- name: Spotify
+  repo: https://github.com/api-evangelist/spotify
+  apisio: https://providers.apis.io/providers/spotify/
+- name: Stripe
+  repo: https://github.com/api-evangelist/stripe
+  apisio: https://providers.apis.io/providers/stripe/
+- name: Supabase
+  repo: https://github.com/api-evangelist/supabase
+  apisio: https://providers.apis.io/providers/supabase/
+- name: Trello
+  repo: https://github.com/api-evangelist/trello
+  apisio: https://providers.apis.io/providers/trello/
+- name: Twilio
+  repo: https://github.com/api-evangelist/twilio
+  apisio: https://providers.apis.io/providers/twilio/
+- name: Typeform
+  repo: https://github.com/api-evangelist/typeform
+  apisio: https://providers.apis.io/providers/typeform/
+- name: Vercel
+  repo: https://github.com/api-evangelist/vercel
+  apisio: https://providers.apis.io/providers/vercel/
+- name: Zendesk
+  repo: https://github.com/api-evangelist/zendesk
+  apisio: https://providers.apis.io/providers/zendesk/
+- name: Zoom
+  repo: https://github.com/api-evangelist/zoom
+  apisio: https://providers.apis.io/providers/zoom/
+features:
+- name: Friction-Free Signup
+  description: Low hanging fruit APIs let a developer create an account, get sandbox
+    credentials, and make their first call without sales calls, contracts, or procurement
+    reviews.
+- name: Time to First Call Under Ten Minutes
+  description: These providers consistently get a new developer from signup to a successful
+    API response in under ten minutes via polished quickstarts and copy-paste code
+    samples.
+- name: Polished Developer Documentation
+  description: Documentation that includes runnable examples, interactive playgrounds,
+    and language-specific SDKs across JavaScript, Python, Ruby, Go, and PHP at a minimum.
+- name: Free Tier or Generous Sandbox
+  description: A free tier, trial credits, or fully featured sandbox environment so
+    enterprises can validate an integration end-to-end before any spend is committed.
+- name: Single-Purpose Clarity
+  description: Each API does one thing extremely well — payments, SMS, email, geocoding,
+    auth, scheduling — making it easy to pitch a single, demonstrable win to non-technical
+    stakeholders.
+- name: SDKs and Postman Collections
+  description: Official SDKs in mainstream languages, Postman collections, and OpenAPI
+    specifications that make integration trivial in any modern engineering stack.
+- name: Quickstart Walkthroughs
+  description: A flagship "build X in five minutes" tutorial that has been refined
+    over thousands of developer onboardings and powers most public hackathon content.
+- name: Predictable, Public Pricing
+  description: Pricing pages list per-call, per-message, or per-event costs publicly
+    so enterprise architects can model spend before signing anything.
+use_cases:
+- name: Accepting a First Payment in One Afternoon
+  description: An enterprise team uses Stripe or PayPal to demonstrate end-to-end
+    checkout — from product page to receipt email — inside a single afternoon's working
+    session.
+- name: Sending Transactional Email From a New App
+  description: A team integrates Resend, SendGrid, Postmark, or Mailgun to send order
+    confirmations, password resets, and notifications without standing up SMTP infrastructure.
+- name: Adding SMS and Voice to an Internal Tool
+  description: Twilio is dropped into an internal operations tool to send appointment
+    reminders or two-factor codes within hours, not weeks.
+- name: Geocoding Addresses on a Map
+  description: Google Maps Platform or Mapbox is wired up to plot customers, stores,
+    or assets on a map with autocomplete address search and route directions.
+- name: Adding Single Sign-On to a New Product
+  description: Auth0 is used to add social login, enterprise SSO, and user management
+    without writing a single line of authentication code.
+- name: Embedding LLM Capabilities in a Workflow
+  description: OpenAI or Anthropic is wired into an internal app to summarize tickets,
+    classify emails, or draft replies as a first concrete AI win for the business.
+- name: Capturing a Lead Form to CRM
+  description: Typeform or Calendly captures inbound interest and HubSpot or Salesforce
+    stores the resulting contact, demonstrating a closed-loop marketing-to-sales flow.
+- name: Notifying Operations in Chat
+  description: Slack or Discord webhooks deliver alerts from monitoring tools, deployment
+    pipelines, or customer-support systems straight into the channels operators already
+    live in.
+integrations:
+- name: Stripe
+  description: Payments, subscriptions, and payouts API that defined modern developer
+    experience and is the canonical "first integration" for any commerce demo.
+- name: Twilio
+  description: SMS, voice, and WhatsApp messaging APIs with a sandbox that lets you
+    send your first message inside the signup flow.
+- name: SendGrid
+  description: Transactional and marketing email API with a free tier and one of the
+    most widely used quickstarts in developer tutorials.
+- name: Resend
+  description: Modern email API for developers with a React-friendly templating story
+    and frictionless onboarding.
+- name: Google Maps Platform
+  description: Geocoding, maps, places, and directions APIs that are the default choice
+    for any "put it on a map" demo.
+- name: Slack
+  description: Webhooks, bots, and the Web API that turn any internal tool into a
+    chat-enabled experience in minutes.
+- name: GitHub
+  description: Repositories, issues, pull requests, and Actions APIs that underpin
+    nearly every developer-tooling demo and quickstart.
+- name: Auth0
+  description: Identity, authentication, and SSO API that enterprises lean on to add
+    login without building it from scratch.
+- name: OpenAI
+  description: Chat completions, embeddings, and image generation APIs that have become
+    the default first-AI-integration for most enterprises.
+- name: Plaid
+  description: Banking and financial account connectivity API that lets a fintech
+    demo a "link your bank" flow in an afternoon.
+- name: HubSpot
+  description: CRM, contacts, deals, and marketing API with public sandboxes and excellent
+    OpenAPI coverage.
+- name: Typeform
+  description: Form and survey API with webhooks that make capturing inbound interest
+    into any back-end trivial.
+- name: Calendly
+  description: Scheduling API and embed widget that demonstrates how a single integration
+    can collapse weeks of back-and-forth into a single link.

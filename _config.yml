@@ -1,0 +1,25 @@
+title: Low Hanging Fruit
+description: 'A Kin Lane / API Evangelist editorial collection of "low hanging fruit"
+  APIs — the well-documented, easy-to-onboard, single-purpose providers that consistently
+  appear in five-minute tutorials and integration playbooks. These are the APIs an
+  enterprise should pick first from a catalog or marketplace to demonstrate API value
+  quickly: friction-free signup, sandbox-friendly credentials, a polished SDK, and
+  a quickstart that gets you to first successful call in minutes. This index curates
+  payments, messaging, email, geolocation, identity, CRM, productivity, AI, and developer-tools
+  APIs that have set the bar for what "developer experience done right" looks like,
+  and that any enterprise can lean on to show concrete, demonstrable API integration
+  wins.'
+url: https://low-hanging-fruit.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary
