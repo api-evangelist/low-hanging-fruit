@@ -6,7 +6,7 @@ description: >-
   that gets you to first successful call in minutes. This index curates payments, messaging, email, geolocation, identity, CRM, productivity, AI, and developer-tools APIs that have set the bar for what
   "developer experience done right" looks like, and that any enterprise can lean on to show concrete, demonstrable API integration wins.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - API Onboarding
 - Quick Wins
