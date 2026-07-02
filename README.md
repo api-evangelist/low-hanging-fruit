@@ -3,8 +3,6 @@ A Kin Lane / API Evangelist editorial collection of "low hanging fruit" APIs —
 
 **URL:** [https://apievangelist.com](https://apievangelist.com)
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
-
 ## Tags:
 
  - API Onboarding, Quick Wins, Tutorials, Developer Onboarding, Easy Integration, Time to First Call, Editorial Curation
