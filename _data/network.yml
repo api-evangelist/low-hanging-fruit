@@ -1,0 +1,31 @@
+related:
+- name: Embedded iPaaS
+  url: https://embedded-ipaas.apievangelist.com
+  icon: https://embedded-ipaas.apievangelist.com/icon.png
+  description: This is the index of embedded iPaaS service and tooling repos being tracked by the API
+    Evangelist network.
+- name: iPaaS
+  url: https://ipaas.apievangelist.com
+  icon: https://ipaas.apievangelist.com/icon.png
+  description: This is the index of iPaaS (integration platform as a service) repos being tracked by the
+    API Evangelist network.
+- name: Portal
+  url: https://portal.apievangelist.com
+  icon: https://portal.apievangelist.com/icon.png
+  description: A curated index of services, tooling, and open source solutions for API developer portals,
+    API catalogs, API marketplaces, and developer experience platforms. This collection…
+- name: Unified APIs
+  url: https://unified-apis.apievangelist.com
+  icon: https://unified-apis.apievangelist.com/icon.png
+  description: This is the index of unified API service and tooling repos being tracked by the API Evangelist
+    network. Unified APIs (also called integration hubs, API aggregators, or universal…
+- name: Management
+  url: https://management.apievangelist.com
+  icon: https://management.apievangelist.com/icon.png
+  description: An index and topic collection covering full-stack API management platforms — solutions
+    that combine an API gateway, developer portal, analytics, monetization, governance, and…
+- name: IDE
+  url: https://ide.apievangelist.com
+  icon: https://ide.apievangelist.com/icon.png
+  description: An index and topic collection covering integrated development environments (IDEs), code
+    editors, and cloud workspaces with APIs. This topic captures the editors, IDEs, and…
