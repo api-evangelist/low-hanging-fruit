@@ -1,7 +1,7 @@
 ---
-title: 'End-to-End Tutorial: Connecting AI Agents to Plaid Financial Data via MCP
-  (With Code)'
-link: https://truto.one/blog/end-to-end-tutorial-connecting-ai-agents-to-plaid-financial-data-via-mcp-with-code/
+title: 'B2B Unified API Platforms for Native Integrations: The 2026 Vendor Comparison
+  Matrix'
+link: https://truto.one/blog/b2b-unified-api-platforms-for-native-integrations-the-2026-vendor-comparison-matrix/
 published: '2026-08-23'
 provider: truto
 repo: https://github.com/api-evangelist/truto
