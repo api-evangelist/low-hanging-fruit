@@ -1,5 +1,6 @@
 aid: low-hanging-fruit
 name: Low Hanging Fruit
+kind: topic
 description: >-
   A Kin Lane / API Evangelist editorial collection of "low hanging fruit" APIs — the well-documented, easy-to-onboard, single-purpose providers that consistently appear in five-minute tutorials and integration
   playbooks. These are the APIs an enterprise should pick first from a catalog or marketplace to demonstrate API value quickly: friction-free signup, sandbox-friendly credentials, a polished SDK, and a quickstart
