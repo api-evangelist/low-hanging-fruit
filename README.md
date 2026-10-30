@@ -1,139 +1,97 @@
-# Low Hanging Fruit (low-hanging-fruit)
+# Low Hanging Fruit
+
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
+
 A Kin Lane / API Evangelist editorial collection of "low hanging fruit" APIs — the well-documented, easy-to-onboard, single-purpose providers that consistently appear in five-minute tutorials and integration playbooks. These are the APIs an enterprise should pick first from a catalog or marketplace to demonstrate API value quickly: friction-free signup, sandbox-friendly credentials, a polished SDK, and a quickstart that gets you to first successful call in minutes. This index curates payments, messaging, email, geolocation, identity, CRM, productivity, AI, and developer-tools APIs that have set the bar for what "developer experience done right" looks like, and that any enterprise can lean on to show concrete, demonstrable API integration wins.
 
-**URL:** [https://apievangelist.com](https://apievangelist.com)
+**Areas:** API Onboarding · Quick Wins · Tutorials · Developer Onboarding · Easy Integration · Time to First Call · Editorial Curation
 
-## Tags:
+## Low Hanging Fruit on APIs.io
 
- - API Onboarding, Quick Wins, Tutorials, Developer Onboarding, Easy Integration, Time to First Call, Editorial Curation
+Everything profiled for Low Hanging Fruit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/low-hanging-fruit/](https://apis.io/providers/low-hanging-fruit/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+## Where to find this API
 
-- **Created:** 2026-05-19
-- **Modified:** 2026-05-19
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Common Properties
+- [GitHub](https://github.com/api-evangelist)
 
-- [Portal](https://apievangelist.com)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - Onboarding Checklist Schema](https://raw.githubusercontent.com/api-evangelist/low-hanging-fruit/refs/heads/main/json-schema/low-hanging-fruit-onboarding-checklist-schema.json)
-- [JSONSchema - Quick Win Integration Schema](https://raw.githubusercontent.com/api-evangelist/low-hanging-fruit/refs/heads/main/json-schema/low-hanging-fruit-quick-win-integration-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/low-hanging-fruit/refs/heads/main/json-ld/low-hanging-fruit-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/low-hanging-fruit/refs/heads/main/vocabulary/low-hanging-fruit-vocabulary.yaml)
+## API Evangelist rating
 
-## Features
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Name | Description |
-|------|-------------|
-| Friction-Free Signup | Low hanging fruit APIs let a developer create an account, get sandbox credentials, and make their first call without sales calls, contracts, or procurement reviews. |
-| Time to First Call Under Ten Minutes | These providers consistently get a new developer from signup to a successful API response in under ten minutes via polished quickstarts and copy-paste code samples. |
-| Polished Developer Documentation | Documentation that includes runnable examples, interactive playgrounds, and language-specific SDKs across JavaScript, Python, Ruby, Go, and PHP at a minimum. |
-| Free Tier or Generous Sandbox | A free tier, trial credits, or fully featured sandbox environment so enterprises can validate an integration end-to-end before any spend is committed. |
-| Single-Purpose Clarity | Each API does one thing extremely well — payments, SMS, email, geocoding, auth, scheduling — making it easy to pitch a single, demonstrable win to non-technical stakeholders. |
-| SDKs and Postman Collections | Official SDKs in mainstream languages, Postman collections, and OpenAPI specifications that make integration trivial in any modern engineering stack. |
-| Quickstart Walkthroughs | A flagship "build X in five minutes" tutorial that has been refined over thousands of developer onboardings and powers most public hackathon content. |
-| Predictable, Public Pricing | Pricing pages list per-call, per-message, or per-event costs publicly so enterprise architects can model spend before signing anything. |
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Use Cases
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| Accepting a First Payment in One Afternoon | An enterprise team uses Stripe or PayPal to demonstrate end-to-end checkout inside a single afternoon's working session. |
-| Sending Transactional Email From a New App | A team integrates Resend, SendGrid, Postmark, or Mailgun to send order confirmations, password resets, and notifications without standing up SMTP infrastructure. |
-| Adding SMS and Voice to an Internal Tool | Twilio is dropped into an internal operations tool to send appointment reminders or two-factor codes within hours, not weeks. |
-| Geocoding Addresses on a Map | Google Maps Platform or Mapbox is wired up to plot customers, stores, or assets on a map with autocomplete address search and route directions. |
-| Adding Single Sign-On to a New Product | Auth0 is used to add social login, enterprise SSO, and user management without writing a single line of authentication code. |
-| Embedding LLM Capabilities in a Workflow | OpenAI or Anthropic is wired into an internal app to summarize tickets, classify emails, or draft replies as a first concrete AI win for the business. |
-| Capturing a Lead Form to CRM | Typeform or Calendly captures inbound interest and HubSpot or Salesforce stores the resulting contact, demonstrating a closed-loop marketing-to-sales flow. |
-| Notifying Operations in Chat | Slack or Discord webhooks deliver alerts from monitoring tools, deployment pipelines, or customer-support systems straight into the channels operators already live in. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Integrations
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Low Hanging Fruit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Name | Description |
-|------|-------------|
-| Stripe | Payments, subscriptions, and payouts API that defined modern developer experience and is the canonical "first integration" for any commerce demo. |
-| Twilio | SMS, voice, and WhatsApp messaging APIs with a sandbox that lets you send your first message inside the signup flow. |
-| SendGrid | Transactional and marketing email API with a free tier and one of the most widely used quickstarts in developer tutorials. |
-| Resend | Modern email API for developers with a React-friendly templating story and frictionless onboarding. |
-| Google Maps Platform | Geocoding, maps, places, and directions APIs that are the default choice for any "put it on a map" demo. |
-| Slack | Webhooks, bots, and the Web API that turn any internal tool into a chat-enabled experience in minutes. |
-| GitHub | Repositories, issues, pull requests, and Actions APIs that underpin nearly every developer-tooling demo and quickstart. |
-| Auth0 | Identity, authentication, and SSO API that enterprises lean on to add login without building it from scratch. |
-| OpenAI | Chat completions, embeddings, and image generation APIs that have become the default first-AI-integration for most enterprises. |
-| Plaid | Banking and financial account connectivity API that lets a fintech demo a "link your bank" flow in an afternoon. |
-| HubSpot | CRM, contacts, deals, and marketing API with public sandboxes and excellent OpenAPI coverage. |
-| Typeform | Form and survey API with webhooks that make capturing inbound interest into any back-end trivial. |
-| Calendly | Scheduling API and embed widget that demonstrates how a single integration can collapse weeks of back-and-forth into a single link. |
+## Open an issue
 
-## Artifacts
-
-Machine-readable API specifications organized by format.
-
-### JSON Schema
-
-- [Onboarding Checklist Schema](json-schema/low-hanging-fruit-onboarding-checklist-schema.json)
-- [Quick Win Integration Schema](json-schema/low-hanging-fruit-quick-win-integration-schema.json)
-
-### JSON Structure
-
-- [Onboarding Checklist Structure](json-structure/low-hanging-fruit-onboarding-checklist-structure.json)
-- [Quick Win Integration Structure](json-structure/low-hanging-fruit-quick-win-integration-structure.json)
-
-### JSON-LD
-
-- [Low Hanging Fruit Context](json-ld/low-hanging-fruit-context.jsonld)
-
-## Vocabulary
-
-- [Low Hanging Fruit Vocabulary](vocabulary/low-hanging-fruit-vocabulary.yaml) — Editorial taxonomy mapping resources, actions, workflows, and personas across quick-win API integration patterns
-
-## Network
-
-This index references the following easy-onboarding API provider repositories:
-
-- [Airtable](https://github.com/api-evangelist/airtable)
-- [Anthropic](https://github.com/api-evangelist/anthropic)
-- [Asana](https://github.com/api-evangelist/asana)
-- [Auth0](https://github.com/api-evangelist/auth0)
-- [Calendly](https://github.com/api-evangelist/calendly)
-- [ClickUp](https://github.com/api-evangelist/clickup)
-- [Cloudflare](https://github.com/api-evangelist/cloudflare)
-- [Datadog](https://github.com/api-evangelist/datadog)
-- [Discord](https://github.com/api-evangelist/discord)
-- [Dropbox](https://github.com/api-evangelist/dropbox)
-- [ElevenLabs](https://github.com/api-evangelist/elevenlabs)
-- [GitHub](https://github.com/api-evangelist/github)
-- [GitLab](https://github.com/api-evangelist/gitlab)
-- [Google Maps Platform](https://github.com/api-evangelist/google-maps)
-- [HubSpot](https://github.com/api-evangelist/hubspot)
-- [Intercom](https://github.com/api-evangelist/intercom)
-- [Mailchimp](https://github.com/api-evangelist/mailchimp)
-- [Mailgun](https://github.com/api-evangelist/mailgun)
-- [Mapbox](https://github.com/api-evangelist/mapbox)
-- [Netlify](https://github.com/api-evangelist/netlify)
-- [Notion](https://github.com/api-evangelist/notion)
-- [OpenAI](https://github.com/api-evangelist/openai)
-- [OpenWeather](https://github.com/api-evangelist/openweather)
-- [PayPal](https://github.com/api-evangelist/paypal)
-- [Plaid](https://github.com/api-evangelist/plaid)
-- [Postmark](https://github.com/api-evangelist/postmark)
-- [Resend](https://github.com/api-evangelist/resend)
-- [Salesforce](https://github.com/api-evangelist/salesforce)
-- [SendGrid](https://github.com/api-evangelist/sendgrid)
-- [Shopify](https://github.com/api-evangelist/shopify)
-- [Slack](https://github.com/api-evangelist/slack)
-- [Spotify](https://github.com/api-evangelist/spotify)
-- [Stripe](https://github.com/api-evangelist/stripe)
-- [Supabase](https://github.com/api-evangelist/supabase)
-- [Trello](https://github.com/api-evangelist/trello)
-- [Twilio](https://github.com/api-evangelist/twilio)
-- [Typeform](https://github.com/api-evangelist/typeform)
-- [Vercel](https://github.com/api-evangelist/vercel)
-- [Zendesk](https://github.com/api-evangelist/zendesk)
-- [Zoom](https://github.com/api-evangelist/zoom)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/low-hanging-fruit/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
